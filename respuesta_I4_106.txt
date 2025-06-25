@@ -6,3 +6,17 @@ A) Azul
 B) Yellow
 C) Yellow
 D) el de BETA
+E) Si, beta y gamma
+F) To https://github.com/iribruzzone/TP_SO_I4_106_.git
+ ! [rejected]        TESTING -> TESTING (fetch first)
+error: failed to push some refs to 'https://github.com/iribruzzone/TP_SO_I4_106_
+.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+G) git pull: para traer los cambios al repositorio local /// git push -f: fuerza el push ignorando lo que hay en el repositorio remoto
+H) Si cada integrante usa push -f, cada uno sobrescribe el trabajo del anterior. Al final, el repositorio puede terminar solamente con los cambios del último push forzado y se perderán las contribuciones previas. Esto genera pérdida de información y desorganización en el equipo.
+I) Hacer un merge de la rama TESTING a DESARROLLO una vez que los 3 integrantes hayan hecho su push correctamente a TESTING.
